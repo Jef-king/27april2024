@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/07/17/16/flower-4910377_1280.png');
+    background-color: black;
+    background-size: cover;
 }
 .container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20% auto;
     padding: 20px;
     background-color: #e4d9d9;
     border-radius: 5px;

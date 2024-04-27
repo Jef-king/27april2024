@@ -1,40 +1,32 @@
-body{
-    background-image: url('/img/background-4326353_1920.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: auto;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+body {
+    font-family: Arial, sans-serif;
 }
-.eremail,.erpassword{
-    color:red;
-    display:none;
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e4d9d9;
+    border-radius: 5px;
 }
-.success{
-    color:green;
-    display:none;
+label{
+    margin:20px;
 }
-.form{
-    margin-top: 20px;
-    display:block;
-    max-width: 500px;
-    min-width:300px;
-    background-color: antiquewhite;
-    padding:30px;
-    border-radius: 15px;
+input {
+    width: 80%;
+    padding: 10px;
+    margin:20px;
+    border: 1px solid #e2dddd;
+    border-radius: 3px;
 }
-label,input,span{
-    display:block;
-    padding:4px;
-    margin:3px;
-    font-size: 20px;
+button{
+    margin:10px;
+    width:100px;
+    height:40px;
 }
-input{
-    max-width: 450px;
-    min-width:280px;
-    font-size: 16px;
-    margin:3px;
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
 }
